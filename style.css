@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+margin-bottom: 10px;
+}
+body{
+    background:rgba(128, 128, 128, 0.582) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.Resume-container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px; /* this give us the straight position*/
+    margin: 50px;
+    background: #ffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;/* read about this*/
+    box-shadow: 0 35px 35px 55px rgba(0, 0, 0,0.1);
+}
+ .Resume-container .left-container{
+    position: relative;
+    background: #000000c4;
+    padding: 40px;
+}
+.imgbx .contact .skill {padding-bottom: 20px}
+
+.imgbx img{
+    margin-top: 10px;
+    margin-left: 10%;
+    
+    height: 10%;
+    width: 70%;
+    border-radius: 100%;
+    align-self: center;
+
+}
+ .title1{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    
+    font-weight: 600;
+    line-height: 2rem;
+    
+
+ }
+ .title2{
+    color: white;
+     font-weight: 500;
+     letter-spacing: 1px;
+     
+
+ }
+ .percent div{
+    position: relative;
+    width: 100%;
+    height:6px ;
+    background: white;
+    display: block;
+    margin-top:5px ; }
+.Resume-container  .right-container{
+    position: relative;
+    background: #ffff;
+    padding: 40px;
+   
+}
+.name  {
+
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+    
+}
+.name h2{
+    color:black;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.9rem;
+    
+}
+.name .title2{color: rgba(0, 0, 0, 0.568);}
+.experience .title1{
+    color: rgba(0, 0, 0, 0.788);
+    }
+  .experience .title2{
+    color: rgba(0, 0, 0, 0.568);
+  }  
+  .education .title1{
+    color: rgba(0, 0, 0, 0.788); 
+  }
+  .education .title2{
+    color: rgba(0, 0, 0, 0.788);
+  }
+  .reference .title1{
+    color: rgba(0, 0, 0, 0.568);
+  }
+  .reference .title2{
+    color: rgba(0, 0, 0, 0.568);
+  }
+ 
+  .right-container i{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border-radius: 60px;
+    padding:5px;
+
+  }
+  .experience{
+    margin-bottom:3.5rem ;
+
+}
+
+.experience :last-child{
+    margin-bottom: 0;
+}
+
+
+  .experience .box{
+    display: flex;
+    flex-direction: row;
+    margin:20px 0;
+}
+
+.experience .box .year-company{
+    min-width: 150px;
+}
+
+.experience .box .year-company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.experience .box .text h4{
+    text-transform: uppercase; 
+    color:#848c90;
+    font-size: 16px;
+
+}
+.education{
+    margin-bottom:3.5rem ;
+
+}
+
+.education :last-child{
+    margin-bottom: 0;
+}
+
+.education .box{
+    display: flex;
+    flex-direction: row;
+    margin:20px 0;
+}
+.education .box .year-Education{
+    min-width: 150px;
+}
+
+.education .box .year-Education h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.education .box .text h4{
+    text-transform: uppercase; 
+    color:#848c90;
+    font-size: 16px;
+
+}
+.reference .title2{
+    font-weight: 600;
+    color: black;
+}
+.reference .box{
+    display: flex;
+    flex-direction: row;
+    margin:20px 0 ;
+
+}
+.reference .box .ref-name{
+    min-width: 250px;
+}
+
+
+li{
+    color: white;
+    list-style: none;
+    margin-left: 20px ;
+    font-size:12px;
+    font-weight:small
+}
+.fa{
+    margin-top: 10px;
+    color:white;
+    font-size: 20px;
+    width:20px;
+
+}
